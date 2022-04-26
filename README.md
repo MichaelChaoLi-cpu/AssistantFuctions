@@ -27,3 +27,8 @@ conda update --prefix D:\Anaconda anaconda
 ```
   
 Then wait. The updation should go step by step. It might take a long time, if your **conda** is very old.  
+  
+Sometimes, they still do not work, we might use the follow code:
+```
+conda config --set channel_priority false
+```
