@@ -60,7 +60,17 @@ pip install tensorflow==2.12.*
 python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
 ```
 
-
+## Install Dependencies for CPT
+```
+pip install google-cloud-bigquery
+pip install joblib
+pip install numpy
+pip install transformers
+pip install google-cloud-storage
+pip install scikit-learn
+pip install pandas
+pip install db-dtypes
+```
 
 
 
